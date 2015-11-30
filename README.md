@@ -12,4 +12,13 @@ Performed operations:
 - "autofeed": every x milliseconds click on the 4th element in your inventory and send it to the pet inventory (F9)
 - "autotame": every x milliseconds click on the 3rd element in the inventory and click on the "Remote Use" (F10)
 
+
 Note: this stuff has been written and is currently used on a 1980x1020 screen resolution so the autofeed and autotame might now work properly if you try them on different resolutions.
+
+
+
+Useful discussions in Steam:
+
+[DEV-Do Macros to spam berries fall into 3rd party cheats?](http://steamcommunity.com/app/346110/discussions/0/530649887217026809/) tl;dr: no
+
+[State of the Game: VAC Wave! Zero Tolerance, Reporting & Crashes](http://steamcommunity.com/app/346110/discussions/0/517142253854644884/)
