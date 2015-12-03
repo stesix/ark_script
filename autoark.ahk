@@ -6,7 +6,7 @@
 giveNarcoticEvery := 30000 
  
 ;; this depends on baby. Start from 6000 and increase it gradually
-giveFoodEvery := 30000
+giveFoodEvery := 8000
  
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; AutoClicker - it'll keep stupidly clicking
@@ -14,7 +14,7 @@ giveFoodEvery := 30000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
  
 Click() {
-        click
+    click
 }
  
 AutoClickToggle := false
