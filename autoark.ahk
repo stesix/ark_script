@@ -71,7 +71,7 @@ AutoFeed() {
         else
                 SetTimer Feed, %giveFoodEvery%
 }
-F9::AutoTame()
+F9::AutoFeed()
        
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Auto tame: remote use of narcotics in
