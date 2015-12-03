@@ -19,13 +19,13 @@ Click() {
  
 AutoClickToggle := false
 AutoClick() {
-        global AutoClickToggle
-        AutoClickToggle := !AutoClickToggle
-       
-        if (!AutoClickToggle)
-                SetTimer Click, Off
-        else
-                SetTimer Click, 50
+	global AutoClickToggle
+    AutoClickToggle := !AutoClickToggle
+   
+    if (!AutoClickToggle)
+        SetTimer Click, Off
+    else
+        SetTimer Click, 50
 }
 F8::AutoClick()
  
@@ -56,20 +56,20 @@ MButton::Send % "{w " . ( GetKeyState("w") ? "Up}" : "Down}" )
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
  
 Feed() {
-        click 450 270 ; location depends on screen resolution!
-        sleep 3
-        send, t
+    click 450 270 ; location depends on screen resolution!
+    sleep 3
+    send, t
 }
  
 AutoFoodToggle := false
 AutoFeed() {
-        global giveFoodEvery, AutoFoodToggle
-       
-        AutoFoodToggle := !AutoFoodToggle
-        if (!AutoFoodToggle)
-                SetTimer Feed, Off
-        else
-                SetTimer Feed, %giveFoodEvery%
+    global giveFoodEvery, AutoFoodToggle
+   
+    AutoFoodToggle := !AutoFoodToggle
+    if (!AutoFoodToggle)
+        SetTimer Feed, Off
+    else
+        SetTimer Feed, %giveFoodEvery%
 }
 F9::AutoFeed()
        
@@ -79,20 +79,20 @@ F9::AutoFeed()
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
  
 Tame() {
-        click 960 320 ; location depends on screen resolution
-        sleep 3
-        click 1150 770 ; location depends on screen resolution
+    click 960 320 ; location depends on screen resolution
+    sleep 3
+    click 1150 770 ; location depends on screen resolution
 }
  
 AutoTameToggle := false
 AutoTame() {
-        global giveNarcoticEvery, AutoTameToggle
-       
-        AutoTameToggle := !AutoTameToggle
-        if (!AutoTameToggle)
-                SetTimer Tame, Off
-        else
-                SetTimer Tame, %giveNarcoticEvery%
+    global giveNarcoticEvery, AutoTameToggle
+   
+    AutoTameToggle := !AutoTameToggle
+    if (!AutoTameToggle)
+        SetTimer Tame, Off
+    else
+        SetTimer Tame, %giveNarcoticEvery%
 }
  
 F10::AutoTame()
