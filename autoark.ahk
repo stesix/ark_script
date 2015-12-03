@@ -19,7 +19,7 @@ Click() {
  
 AutoClickToggle := false
 AutoClick() {
-	global AutoClickToggle
+    global AutoClickToggle
     AutoClickToggle := !AutoClickToggle
    
     if (!AutoClickToggle)
@@ -35,20 +35,20 @@ F8::AutoClick()
  
 MButton::Send % "{w " . ( GetKeyState("w") ? "Up}" : "Down}" )
 !w::
-	KeyWait,LAlt
-	KeyWait,w
-	SendInput {w down}
-	return
+    KeyWait,LAlt
+    KeyWait,w
+    SendInput {w down}
+    return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; AutoInfo - keep the H button pressed
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 !h::
-	KeyWait,LAlt
-	KeyWait,h
-	SendInput {h down}
-	return
+    KeyWait,LAlt
+    KeyWait,h
+    SendInput {h down}
+    return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Autofeed: put the 4rd position in your inventory in dino's
